@@ -1,0 +1,20 @@
+{
+  "name": "edu-manager",
+  "type": "web",
+  "framework": "react",
+  "language": "typescript",
+  "styling": "tailwind",
+  "deployment": {
+    "provider": "netlify",
+    "config": {
+      "buildCommand": "npm run build",
+      "publishDirectory": "dist",
+      "framework": "vite"
+    }
+  },
+  "features": {
+    "ai": true,
+    "auth": true,
+    "database": false
+  }
+}
